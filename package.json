@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "concurrently --kill-others \"npm run start:server\" \"npm run update:watch\"",
+    "start:server": "json-server --watch index.js",
+    "update:watch": "onchange 'src/**/*.json' -- touch index.js"
+  },
+  "dependencies": {
+    "concurrently": "^3.5.0",
+    "onchange": "^3.2.1"
+  }
+}
