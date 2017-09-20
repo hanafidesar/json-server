@@ -1,9 +1,9 @@
-## Json-Server multiple fake json
+# Json-Server multiple fake json
 
-# Add all library for all function json-server
+## Add all library for all function json-server
 npm install
 
-# Make JSON fake in src folder
+## Make JSON fake in src folder
   example :
   > create file name profile.json
   > add this json
@@ -19,7 +19,7 @@ npm install
     "postalCode": "40162",
     "aboutMe": "I experianced as Web Programmer Angular 2"
   }
-# Initialize your fake jsn in index.js file
+## Initialize your fake jsn in index.js file
   example :
   const profile = require('./src/profile.json') --> your fake json already created
 
@@ -27,9 +27,9 @@ npm install
   profile: profile
   });
 
-# Run json-server
+## Run json-server
 npm run start
 
-# URL API has Already
+## URL API has Already
 example :
 http://localhost:3000/profile
