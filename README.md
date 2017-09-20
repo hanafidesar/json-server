@@ -1,4 +1,4 @@
-# json-server-angular
+# json-server
 
 # Add all library for all function json-server
 npm install
